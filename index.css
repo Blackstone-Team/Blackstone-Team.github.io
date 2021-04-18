@@ -1,5 +1,6 @@
 body {
     background-image: url("images/minecraft-bg.jpg");
+    background-position: center center;
     background-size: cover;
     background-color: #cccccc;
    }
