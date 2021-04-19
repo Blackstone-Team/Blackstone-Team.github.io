@@ -31,3 +31,9 @@ body {
     background-color: #4CAF50;
     color: white;
   }
+  .topnav a.image-bigger {
+    transition: all .2s ease-in-out;
+  }
+  .topnav a.image-bigger:hover {
+    transform: scale(1.1);
+  }
