@@ -37,3 +37,15 @@ body {
   .topnav a.image-bigger:hover {
     transform: scale(1.1);
   }
+  div.imgCandyMod {
+    position: fixed;
+    bottom: 40;
+    right: 40;
+    width: 100px;
+  }
+  div.imgCandyMod.CandyGoTo {
+    position: fixed;
+    bottom: 44;
+    right: 46;
+    width: 100px;
+  }
