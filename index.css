@@ -43,3 +43,8 @@ body {
   .topnav a.active:hover {
     transform: scale(1.2);
   }
+  div.imgCandyMod {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+  }
