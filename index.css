@@ -44,9 +44,13 @@ body {
     transform: scale(1.2);
   }
   div.imgCandyMod {
+    transition: all .4s ease-in-out;
     position: absolute;
     left: 100px;
     top: 150px;
+  }
+  div.imgCandyMod:hover {
+    transform: scale(1.2);
   }
 
 /*Team members*/
