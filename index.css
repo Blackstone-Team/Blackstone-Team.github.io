@@ -48,3 +48,34 @@ body {
     left: 100px;
     top: 150px;
   }
+
+/*Team members*/
+.team {
+  text-align: center;
+}
+.team-mem {
+  text-decoration: none !important;
+  text-indent: 50px;
+  font-size: 26px;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 4px;
+  color:rgb(196, 134, 0);
+  transition: all .4s ease-in-out;
+
+}
+.team-mem:hover {
+  transform: scale(1.2);
+  color:rgb(134, 76, 0);
+}
+
+/*Basically... A footer*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
