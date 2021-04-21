@@ -116,7 +116,7 @@ body {
     animation: fadeIn linear 4s;
     -webkit-animation: fadeIn linear 4s;
   }
-  a.bs-desc {
+  div.bs-desc {
     font-size: 35px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
