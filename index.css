@@ -1,6 +1,6 @@
 @media (min-width: 576px) {
   :root {
-    --size-divisor: 2;
+    --size-divisor: 1.7;
   }
 }
 @media (min-width: 768px) {
