@@ -1,3 +1,23 @@
+@media (min-width: 576px) {
+  :root {
+    --size-divisor: 2;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --size-divisor: 1.5;
+  }
+}
+@media (min-width: 992px) { 
+  :root {
+    --size-divisor: 1;
+  }
+}
+@media (min-width: 1200px) { 
+  :root {
+    --size-divisor: .67;
+  }
+}
 body {
     background-image: url("images/minecraft-bg.jpg");
     background-position: center center;
@@ -8,6 +28,7 @@ body {
 .topnav {
     background-color: #333;
     overflow: hidden;
+    width: calc(375px / 2);
   }
   
   /* Style the buttons inside the navigation bar */
@@ -75,6 +96,7 @@ body {
 
 /*Basically... A footer*/
 .footer {
+  width: calc(375px / var(--size-divisor));
   position: fixed;
   left: 0;
   bottom: 0;
