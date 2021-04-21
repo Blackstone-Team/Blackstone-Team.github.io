@@ -124,7 +124,14 @@ body {
     animation: fadeIn linear 5s;
     -webkit-animation: fadeIn linear 5s;
   }
-
+  div.media {
+    text-align: center;
+  }
+  div.media a img {
+    border-radius: 44% 56% 65% 35% / 30% 60% 40% 70%;
+    animation: spin linear 2s;
+    -webkit-animation: spin linear 2s;
+  }
 /*Team members*/
 .team {
   text-align: center;
