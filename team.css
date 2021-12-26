@@ -1,0 +1,9 @@
+.team-mem {
+    color: rgb(32, 218, 218);
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.team-mem:hover {
+    color: rgb(23, 172, 172);
+}
